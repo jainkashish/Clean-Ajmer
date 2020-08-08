@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projecttester"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.projecttester.TouchActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.SplashScreen"
+            android:label="@string/title_activity_splash_screen" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        <activity
+            android:name="com.example.projecttester.Enter"
+            android:label="@string/title_activity_enter" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.HomeActivity"
+            android:label="@string/title_activity_home" >
+                   </activity>
+        <activity
+            android:name="com.example.projecttester.TabActivity"
+            android:label="@string/title_activity_tab" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.AdminLoginActivity"
+            android:label="@string/title_activity_admin_login" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.AdminPageActivity"
+            android:label="@string/title_activity_admin_page" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.AddCategoryActivity"
+            android:label="@string/title_activity_add_category" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.InsertAdminActivity"
+            android:label="@string/title_activity_insert_admin" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.SchoolActivity"
+            android:label="@string/title_activity_school" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.CollegesActivity"
+            android:label="@string/title_activity_school" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.ShoppingActivity"
+            android:label="@string/title_activity_school" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.ViewAllDetails"
+            android:label="@string/title_activity_view_all_details" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.ViewAllComplainsActivity"
+            android:label="@string/title_activity_view_all_complains" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.DeleteComplainActivity"
+            android:label="@string/title_activity_delete_complain" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.GetImageFromServer"
+            android:label="@string/title_activity_get_image_from_server" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.ViewAllUser"
+            android:label="@string/title_activity_view_all_user" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.DeleteUser"
+            android:label="@string/title_activity_delete_user" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.MultiplexActivity"
+            android:label="@string/title_activity_multiplex" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.MallActivity"
+            android:label="@string/title_activity_mall" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.ViewMyProfileActivity"
+            android:label="@string/title_activity_view_my_profile" >
+        </activity>
+        <activity
+            android:name="com.example.projecttester.UpdateMyProfileActivity"
+            android:label="@string/title_activity_update_my_profile" >
+        </activity>
+    </application>
+
+</manifest>
